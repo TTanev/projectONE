@@ -1,4 +1,5 @@
 notes
+
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -12,6 +13,10 @@ notes
 *.sass-cache
 node_modules/
 .tmp/
+
+# if i dont use gitHub pages to deploy no build folder is needed
+dist/
+docs/
 
 # OS or Editor folders
 .DS_Store
